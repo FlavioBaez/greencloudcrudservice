@@ -8,4 +8,10 @@ $baseDir = dirname($vendorDir);
 return array(
     'Empresa' => $baseDir . '/models/Empresa.php',
     'Invernadero' => $baseDir . '/models/Invernadero.php',
+    'Minimos_Maximo' => $baseDir . '/models/Minimos_Maximo.php',
+    'Sector' => $baseDir . '/models/Sector.php',
+    'Tipo_Cultivo' => $baseDir . '/models/Tipo_Cultivo.php',
+    'Tipo_Variable' => $baseDir . '/models/Tipo_Variable.php',
+    'Usuario' => $baseDir . '/models/Usuario.php',
+    'Variable' => $baseDir . '/models/Variable.php',
 );

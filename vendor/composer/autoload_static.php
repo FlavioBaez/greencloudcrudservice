@@ -129,6 +129,12 @@ class ComposerStaticInit9032ce34ed2f6fb84cc6251e525f4bfa
     public static $classMap = array (
         'Empresa' => __DIR__ . '/../..' . '/models/Empresa.php',
         'Invernadero' => __DIR__ . '/../..' . '/models/Invernadero.php',
+        'Minimos_Maximo' => __DIR__ . '/../..' . '/models/Minimos_Maximo.php',
+        'Sector' => __DIR__ . '/../..' . '/models/Sector.php',
+        'Tipo_Cultivo' => __DIR__ . '/../..' . '/models/Tipo_Cultivo.php',
+        'Tipo_Variable' => __DIR__ . '/../..' . '/models/Tipo_Variable.php',
+        'Usuario' => __DIR__ . '/../..' . '/models/Usuario.php',
+        'Variable' => __DIR__ . '/../..' . '/models/Variable.php',
     );
 
     public static function getInitializer(ClassLoader $loader)
