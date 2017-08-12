@@ -1,0 +1,15 @@
+{
+    "name": "greencloudcrudservice",   
+    "require": {
+        "slim/slim": "3.*",
+        "slim/views": "0.1.*",
+        "illuminate/database": "5.0.*",
+        "illuminate/events": "5.0.*"
+    }
+ ,
+    "autoload": {
+        "classmap": [
+            "models"
+        ]
+    }
+}
