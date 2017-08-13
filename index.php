@@ -236,7 +236,14 @@ $app->get('tipoVariable/read',function(Request $request, Response $response, $ar
 });
 
 //Modificar un registro de la tabla tipo_variable
-
+$app->put('tipoVariable/update/{id}',function(Request $request, Response $response, $args){
+    $datos = $request->getParsedBody();
+    $Tipo_Variable = Tipo_Variable::find($args['id']);
+    $Tipo_Variable->nombre = $datos['nombre'];
+    $Tipo_Variable->descripcion = $datos['descripcion'];
+    $Tipo_Variable->save();
+    return sendOkResponse($Tipo_Variable->toJson(),$response);
+});
 
 ///////////////////////
 //fin del CRUD de la tabla tipo_variable
